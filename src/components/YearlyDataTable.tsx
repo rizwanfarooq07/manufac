@@ -72,7 +72,9 @@ const YearlyDataTable: React.FC<YearlyDataTableProps> = ({ data }) => {
 
   // Render the table component with the data by year
   return (
-    <Table>
+    <>
+    <h3>Maximum and Minimum Production Table</h3>
+    <Table striped highlightOnHover withTableBorder withColumnBorders>
       <Table.Thead>
         <Table.Tr>
           <Table.Th>Year</Table.Th>
@@ -81,7 +83,7 @@ const YearlyDataTable: React.FC<YearlyDataTableProps> = ({ data }) => {
         </Table.Tr>
       </Table.Thead>
       <Table.Tbody>{yearlyDataTableRows}</Table.Tbody>
-    </Table>
+    </Table></>
   );
 }
 

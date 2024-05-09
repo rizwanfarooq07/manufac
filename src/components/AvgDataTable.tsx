@@ -74,7 +74,9 @@ const AvgDataTable: React.FC<AvgDataTableProps> = ({ data }) => {
 
   // Render the table component with the average data
   return (
-    <Table>
+    <>
+    <h3>Average Yield and Cultivation Area Table</h3>
+    <Table striped highlightOnHover withTableBorder withColumnBorders>
       <Table.Thead>
         <Table.Tr>
           <Table.Th>Crop</Table.Th>
@@ -84,6 +86,7 @@ const AvgDataTable: React.FC<AvgDataTableProps> = ({ data }) => {
       </Table.Thead>
       <Table.Tbody>{avgDataTableRow}</Table.Tbody>
     </Table>
+    </>
   );
 }
 

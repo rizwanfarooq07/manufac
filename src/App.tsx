@@ -5,7 +5,7 @@ import { data } from './StaticData/data';
 
 function App() {
   return (
-    <div className="App">
+    <div className="table-wrapper">
       <YearlyDataTable data={data} />
       <AvgDataTable data={data} />
     </div>
