@@ -29,5 +29,5 @@ Your app is ready to be deployed!
 ### Maximum and Minimum Data Table
 ![Maximum and Minimum Data Table](screenshots/maxmintable.png)
 
-### Data Table
+### Average Data Table
 ![Average Data Table](screenshots/avgdatatable.png)
