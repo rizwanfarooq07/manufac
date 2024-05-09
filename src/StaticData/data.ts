@@ -1,4 +1,6 @@
-export const data = 
+import { CropDataInterface } from "../interfaces";
+
+export const data: CropDataInterface[] = 
 [
   {
     "Country": "India",
