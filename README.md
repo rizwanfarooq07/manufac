@@ -26,8 +26,8 @@ Your app is ready to be deployed!
 
 ## Screenshots
 
-### Home Page
+### Maximum and Minimum Data Table
 ![Maximum and Minimum Data Table](screenshots/maxmintable.png)
 
-### Profile Page
-![ Data Table](screenshots/avgdatatable.png)
+### Data Table
+![Data Table](screenshots/avgdatatable.png)
